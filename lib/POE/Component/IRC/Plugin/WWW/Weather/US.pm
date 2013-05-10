@@ -2,7 +2,7 @@ package POE::Component::IRC::Plugin::WWW::Weather::US;
 
 use 5.008_005;
 use strict;
-use warnings
+use warnings;
 
 use POE::Component::IRC::Plugin qw( :ALL );
 use HTML::TreeBuilder::XPath;
