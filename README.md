@@ -1,6 +1,6 @@
 # NAME
 
-POE::Component::IRC::Plugin::WWW::Weather::US - Blah blah blah
+POE::Component::IRC::Plugin::WWW::Weather::US - IRC plugin to weather US weather by zip code
 
 # SYNOPSIS
 
@@ -23,7 +23,7 @@ POE::Component::IRC::Plugin::WWW::Weather::US - Blah blah blah
     sub _start {
         $irc->yield(register => 'all');
 
-        $irc->plugin_add(Weather => POE::Component::IRC::Plugin::WWW::Weather::US->new);
+      $irc->plugin_add(Weather => POE::Component::IRC::Plugin::WWW::Weather::US->new);
 
         $irc->yield(connect => {});
     }
@@ -34,7 +34,7 @@ POE::Component::IRC::Plugin::WWW::Weather::US - Blah blah blah
 
 # DESCRIPTION
 
-type !weather 91202 to get the current weather for a location, currenly fetched from L<http://forecast.weather.gov/zipcity.php>
+type !weather 91202 to get the current weather for a location, currenly fetched from [http://forecast.weather.gov/zipcity.php](http://forecast.weather.gov/zipcity.php)
 
 # AUTHOR
 
