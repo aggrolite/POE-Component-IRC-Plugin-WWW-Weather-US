@@ -1,0 +1,6 @@
+/POE-Component-IRC-Plugin-WWW-Weather-US-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
