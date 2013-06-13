@@ -70,7 +70,7 @@ __END__
 
 =head1 NAME
 
-POE::Component::IRC::Plugin::WWW::Weather::US - IRC plugin to weather US weather by zip code
+POE::Component::IRC::Plugin::WWW::Weather::US - IRC plugin that fetches US weather by zip code
 
 =head1 SYNOPSIS
 

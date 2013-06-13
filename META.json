@@ -1,5 +1,5 @@
 {
-   "abstract" : "IRC plugin to weather US weather by zip code",
+   "abstract" : "IRC plugin that fetches US weather by zip code",
    "author" : [
       "Curtis Brandt <curtis@cpan.org>"
    ],
