@@ -59,7 +59,7 @@
          "web" : "https://github.com/aggrolite/POE-Component-IRC-Plugin-WWW-Weather-US"
       }
    },
-   "version" : "0.01",
+   "version" : "0.02",
    "x_contributors" : [
       "Curtis Brandt <curtisjbrandt@gmail.com>"
    ]
