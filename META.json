@@ -36,11 +36,9 @@
       },
       "runtime" : {
          "requires" : {
-            "HTML::TreeBuilder::XPath" : "0",
-            "LWP::Simple" : "0",
+            "Mojo::UserAgent" : "4.14",
             "POE::Component::IRC::Plugin" : "0",
-            "URI" : "0",
-            "perl" : "5.008005"
+            "perl" : "5.010"
          }
       },
       "test" : {
