@@ -8,7 +8,7 @@ use POE::Component::IRC::Plugin qw( :ALL );
 use Mojo::UserAgent;
 use Cache::Memory::Simple;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub new {
     my $class = shift;
